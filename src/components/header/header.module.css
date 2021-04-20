@@ -3,7 +3,7 @@
 .header {
   width: 100%;
   text-align: center;
-  padding: 0.5em;
+  padding: 0.8em;
   background-color: makerGreen;
   position: relative;
 }
@@ -15,6 +15,7 @@
 .title {
   margin: 0;
   color: makerWhite;
+  font-size: 1.8rem;
 }
 
 .logout {
