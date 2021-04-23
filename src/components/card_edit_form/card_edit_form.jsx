@@ -15,7 +15,8 @@ const CardEditForm = ({ FileInput, card, updateCard, deleteCard }) => {
       [event.currentTarget.name]: event.currentTarget.value,
     });
   };
-  const onSubmit = () => {
+  const onSubmit = (event) => {
+    event.preventDefault();
     deleteCard(card);
   };
   const onFileChange = (file) => {
